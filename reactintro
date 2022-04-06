@@ -18,13 +18,38 @@ nodepackage manager untuk bantu install library javascript
 yg paling sering dipake si npm ini
 npm install -g create-react-app
 install -g ini untuk install di operating sistem kita
+npm install aja untuk install di suatu direktori
 
 biar git init ga crash, pastikan tempat untuk simpan projek react jangan ada .git
 otomatis react itu akan buat .git atau melakukan git init
 
+node modules: simpan library react
+kalau butuh library lain bisa instal lewat npm install
+(jangan pake install -g biar ga cuma di operating sistem aja installnya)
 
+public: untuk simpan logo, dan html kita.
+manifest.json dan robot.txt dibiarin aja dah default dikasih react.
 
+react.js cuma butuh 1 file html
+index.html untuk render script yg kita buat (bisa dibilang jd kanvas lukisan kita).
 
+src: bawaan konfigurasi dr react
+index.js berisi perintah yg mengarahkan komponen kita ke index.html
+react js memanfaatkan konfigurasi DOM (virtual DOM).
+Ada elemen id root di html yg dipanggil lewat document.getElementById('root').
+Virtual DOM yg menentukan komponen2 di index.jg dirender di index.html.
 
+app.js berperan memanage page2 kita yg lain.
+app.js = parent page
+page2 lain menjadi turunan dari app.js
+tiap child page ada js nya sendiri2 yg perlu dimanage
 
+app.css untuk styling app kita.
 
+.gitignore: direktori yg tidak boleh diupload ke github.
+
+package-lock.json berisi package yg dah diupload apa aja dan ga perlu diapa2in.
+
+package.json info ttg project dan library apa aja yg akan kita gunakan.
+
+readme.md untuk buat catatan.
