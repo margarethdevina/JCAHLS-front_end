@@ -1,0 +1,30 @@
+client side rendering: user/pengunjung akan mendownload browser yg didevelop kita baru merender.
+
+keunggulan client side rendering: saat koneksi mati, browser masi bisa terlihat
+
+react.js bundling library sudah disiapkan
+
+front-end developer route map roadmap.sh/frontend
+
+siapkan library lewat terminal cmd/powershell
+
+pastikan aplikasi node.js terinstall
+node -v
+versi 14 keatas aman saat ini
+untuk jalnakan fungsi javascript
+npm -v
+versi 7 keatas aman saat ini
+nodepackage manager untuk bantu install library javascript
+yg paling sering dipake si npm ini
+npm install -g create-react-app
+install -g ini untuk install di operating sistem kita
+
+biar git init ga crash, pastikan tempat untuk simpan projek react jangan ada .git
+otomatis react itu akan buat .git atau melakukan git init
+
+
+
+
+
+
+
