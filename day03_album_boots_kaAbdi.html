@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Album</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+
+    <style>
+        @media only screen and (min-width:768px) {
+            .w-md-50 {
+                width: 50% !important
+            }
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <div class="bg-dark py-2">
+        <!-- container akan mengeset max-width elemen -->
+        <nav class="container navbar bg-dark navbar-dark px-5">
+            <a class="navbar-brand" href="#"><i class="bi bi-camera me-2"></i>Album</a>
+            <button class="btn btn-outline-light" type="button">
+                <i class="bi bi-list text-white" style="font-size: large;"></i>
+            </button>
+        </nav>
+    </div>
+    <div class="text-center py-5">
+        <!-- p-md-5 padding akan aktif saat mode besar saja -->
+        <div class="container p-md-5">
+            <h1 class="fw-light">Album Example</h1>
+            <p class="lead w-md-50 m-auto my-4">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab, nemo ea recusandae, eaque ipsa at qui,
+                laborum tenetur assumenda vero voluptatem repudiandae. Asperiores inventore non animi pariatur
+                repellendus mollitia autem?
+            </p>
+            <button class="btn btn-primary">Main call to action</button>
+            <button class="btn btn-secondary">Main call to action</button>
+        </div>
+    </div>
+    <div class="bg-light">
+        <div class="row px-4 py-3">
+            <div class="card col-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <img class="card-img-top"
+                        src="https://img2.hulu.com/user/v3/artwork/2c3e4b00-30d9-434d-bccc-cf346e40e868?base_image_bucket_name=image_manager&base_image=15168dce-421a-4acd-9869-54bac2c22330&size=1200x630&format=jpeg" />
+                    <div class="card-body">
+                        <p style="text-align:justify;">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus, illo. Asperiores cum
+                            molestias ipsa enim? Necessitatibus doloremque expedita saepe earum corporis dolorem
+                            maiores,
+                            veritatis aperiam quidem mollitia nisi animi! Repudiandae!
+                        </p>
+                        <div class="d-flex">
+                            <div class="btn-group">
+                                <button class="btn btn-sm btn-outline-secondary">View</button>
+                                <button class="btn btn-sm btn-outline-secondary">Edit</button>
+                            </div>
+                            <small class="text-muted">9 Mins</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>
