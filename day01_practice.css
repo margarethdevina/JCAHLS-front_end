@@ -1,0 +1,119 @@
+:root{
+    --navbar-color:rgb(112,112,112);
+}
+
+.navbar,.contentA,.contentB,.footer{
+    display: flex;
+}
+
+.navbar{
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+
+.navbar>div{
+    text-align: center;
+}
+
+#gambar,#menu1,#menu2,#menu3,#menu4{
+    background-color: lightgrey;
+    flex: 2;
+}
+
+#help,#button1,#button2{
+    background-color: var(--navbar-color);
+    flex: 1;
+}
+
+.m-navbar{
+    margin: 10px;
+}
+
+#banner{
+    background-color: rgb(168, 66, 252);
+    padding-top: 75px;
+    text-align: center;
+    height: 300px;
+}
+
+.contentA>div{
+    flex:1;
+    height: 200px;
+}
+
+.p-content{
+    margin:10px;
+    text-align: justify;
+    font-weight: lighter;
+}
+
+#contentA1{
+    background-color: rgb(52, 147, 235);
+}
+
+#contentA2{
+    background-color: aqua;
+}
+
+#contentA3{
+    background-color: rgb(52, 235, 171);
+}
+
+#contentA4{
+    background-color: rgb(136, 81, 181);
+}
+
+#contentB1{
+    background-color: pink;
+    height:100vh;
+    flex: 1;
+}
+
+#contentB2{
+    background-color: black;
+    height:100vh;
+    flex: 3;
+}
+
+.footer>div{
+    flex:1;
+}
+
+.footerContent{
+    margin:10px;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.fab-container{
+    position:fixed;
+    bottom:50px;
+    right:50px;
+    cursor:pointer;
+}
+
+.iconbutton{
+    width:50px;
+    height:50px;
+    border-radius: 100%;
+    background-color: rgb(112,112,112);
+    box-shadow:8px 8px 5px rgb(61, 60, 60);
+}
+
+.button{
+    width:60px;
+    height:60px;
+    background-color: grey;
+}
+
+/* .iconbutton i{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    height:100%;
+    color:white;
+} */
+
+
+
+

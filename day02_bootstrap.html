@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- paling stabil bootstrap 4 -->
+    <!-- paling terbaru bootstrap 5 -->
+    <!-- library paling sering digunakan krn class selector -->
+    <!-- perhatikan dokumentasi library2 nya -->
+    <!-- cara pakai bootstrap: -->
+    <!-- getting started -->
+    <!-- ke introduction -->
+    <!-- copy link css, paste di setelah title sebelum /head -->
+    <!-- bundle js bootstrap itu juga perlu disalin kalau ...-->
+    <!-- ....kita mau pakai elemen2 khusus seperti pop up notif, nav bar butuh bundle js bootsrap itu -->
+    <!-- komponen yg sering dipake: button, form seperti input -->
+
+    <!-- contoh membuat navbar pake bootstrap -->
+    <nav class="navbar navbar-expand bg-dark">
+        <!-- bg-dark untuk memberikan background hitam -->
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Logo</a>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link">Menu 1</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- grid system untuk cara bootstrap melakukan responsive -->
+    <!-- bootstrap membagi layar jd 12 bagian atau 12 kolom-->
+    <!-- responsive width seperti xs, sm, md, dll uda ada jg di bootstrap -->
+    <!-- responsive width bootstrap ini dinamakan breakpoint -->
+    <!-- karena membagi jd kolom maka ada class row dan col di bootstrap -->
+
+    <!-- elemen lain selain col yg bs pake breakpoints adalah padding dan margin -->
+    <div class="row">
+        <div class="col-12 col-md-6 col-lg-4" style="background-color: aqua;">
+            <h4>col-12 col-md-6 col-lg-4</h4>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4" style="background-color: violet;">
+            <h4>col-12 col-md-6 col-lg-4</h4>
+        </div>
+
+        <!-- <div class="col-1" style="background-color: aqua;">
+            <h4>col-1</h4>
+        </div>
+        <div class="col-1" style="background-color: violet;">
+            <h4>col-1</h4>
+        </div>
+        <div class="col-1" style="background-color: aqua;">
+            <h4>col-1</h4>
+        </div>
+        <div class="col-1" style="background-color: violet;">
+            <h4>col-1</h4>
+        </div>
+        <div class="col-1" style="background-color: aqua;">
+            <h4>col-1</h4>
+        </div>
+        <div class="col-1" style="background-color: violet;">
+            <h4>col-1</h4>
+        </div>
+        <div class="col-1" style="background-color: aqua;">
+            <h4>col-1</h4>
+        </div>
+        <div class="col-1" style="background-color: violet;">
+            <h4>col-1</h4>
+        </div>
+        <div class="col-1" style="background-color: aqua;">
+            <h4>col-1</h4>
+        </div>
+        <div class="col-1" style="background-color: violet;">
+            <h4>col-1</h4>
+        </div>
+        <div class="col-1" style="background-color: aqua;">
+            <h4>col-1</h4>
+        </div>
+        <div class="col-1" style="background-color: violet;">
+            <h4>col-1</h4>
+        </div> -->
+        <!-- col terakhir ini melewati batas 12 columns jdnya diturunin ke bawah -->
+        <!-- <div class="col-2" style="background-color: aqua;">
+            <h4>col-2</h4>
+        </div>
+        <div class="col-2" style="background-color: violet;">
+            <h4>col-2</h4>
+        </div>
+        <div class="col-2" style="background-color: aqua;">
+            <h4>col-2</h4>
+        </div>
+        <div class="col-2" style="background-color: violet;">
+            <h4>col-2</h4>
+        </div>
+        <div class="col-2" style="background-color: aqua;">
+            <h4>col-2</h4>
+        </div>
+        <div class="col-2" style="background-color: violet;">
+            <h4>col-2</h4>
+        </div>
+        <div class="col-7" style="background-color: aqua;">
+            <h4>col-7</h4>
+        </div>
+        <div class="col-5" style="background-color: violet;">
+            <h4>col-5</h4>
+        </div>
+        <div class="col-7" style="background-color: gray;">
+            <h4>col-7</h4>
+        </div>
+        <div class="col-7" style="background-color: violet;">
+            <h4>col-7</h4>
+        </div> -->
+
+<!-- components untuk styling2 spt button -->
+<!-- utilities untuk styling2 seperti border, padding, display -->
+<!-- display yg sering dipake non block inline grid flex -->
+<!-- utilities yg sering dipake color, background, spacing, sizing, text  -->
+<!--  -->
+
+
+</div>
+
+</body>
+</html>

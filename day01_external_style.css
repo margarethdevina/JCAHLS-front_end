@@ -1,0 +1,62 @@
+/* membuat variabel di css */
+:root{
+    --navbar-color:rgb(255,0,0)
+}
+
+/* prioritas: id > class > tag selector */
+/* bisa combine class dan id misal class untuk ubah border dan id untuk ubah font*/
+
+/* selector: metode pemilihan elemen yg akan diberi dekorasi atau styling */
+
+/* tag selector: memilih elemen berdasarkan nama tag nya*/
+div{
+    background-color: aquamarine;
+}
+
+/* ID selector: memilih elemen berdasarkan id nya */
+/* ID selector diutamakan dibanding tag selector */
+/* merupakan styling untuk elemen tertentu krn id itu unik */
+/* untuk mengakesnya pakai pager # dulu baru id nya */
+/* paling sering digunakan */
+/* #navbar{
+    background-color: coral;
+} */
+
+/* !important untuk membuat perubahan itu diutamakan */
+#navbar{
+    background-color: var(--navbar-color) !important;
+}
+
+#content{
+    border: 2px solid red;
+}
+
+/* Class selector: memilih elemen berdasarkan class nya  */
+/* merupakan styling untuk banyak elemen */
+/* misal styling untuk button mau dibuat sama semua / konsisten, bisa pakai class selector */
+/* misal mau membuat tulisan bold berwarna putih */
+/* paling sering digunakan */
+/* class akan diutamakan di inline styling saat menggunakan !important */
+.bold-white{
+    font-weight: bold;
+    color: white;
+}
+
+/* child selector: memilih elemen child */
+/* misal elemen <p> yg mrpkan child dr div */
+/* div > p {
+    font-weight: bolder;
+} */
+
+#content > p {
+    font-weight: bolder;
+}
+
+/* pseudo-class selector */
+/* ingin merubah styling berdasarkan kondisi tertentu */
+/* ketika hover biasanya pakai ini */
+/* misal saat hover di atas id navbar, warna berubah */
+#navbar:hover{
+    background-color: blue;
+}
+

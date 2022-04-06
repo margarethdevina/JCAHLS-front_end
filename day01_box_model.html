@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Box Model</title>
+    <style>
+        .div-container {
+            border: 2px solid red;
+            padding: 10px;
+            /*atas kanan bawah kiri dr parent div dgn paragraf 10px  */
+
+        }
+
+        .p-padding {
+            border: 1px solid blue;
+
+            /* padding: 20px; atas kanan bawah kiri dr parent par dgn content 20px  */
+            /* padding-top: 20px; 
+            padding-bottom: 30px;
+            padding-left: 10px;
+            padding-right: 100px; */
+
+            /* padding: 30px 100px; /* 30px untuk sisi vertikal 100px untuk sisi horisontal */
+
+            padding: 40px 150px 200px 5px;
+            /*top 40px right 150px bottom 200px left 5px*/
+        }
+
+        .p-margin {
+            border: 1px solid purple;
+            margin: 20px;
+            /* cara tulis sm dengan padding, ada top right bottom left, bisa diset vertikal & horisontalnya, atau diset tiap sisi separately */
+        }
+
+    </style>
+</head>
+
+<body>
+    <!-- Padding -->
+    <h2>Padding</h2>
+    <div class="div-container">
+        <p class="p-padding">
+            Lorem ipsum dolor sit
+            amet consectetur adipisicing
+            elit. Aspernatur nesciunt maiores
+            doloribus minus explicabo, eligendi
+            eaque sapiente accusamus repudiandae tempore
+            nemo suscipit sit natus vel ut. Blanditiis ex neque cupiditate?
+            <br />
+            <br />
+            Lorem ipsum dolor sit
+            amet consectetur adipisicing
+            elit. Aspernatur nesciunt maiores
+            doloribus minus explicabo, eligendi
+            eaque sapiente accusamus repudiandae tempore
+            nemo suscipit sit natus vel ut. Blanditiis ex neque cupiditate?
+        </p>
+    </div>
+    <!-- Margin -->
+    <h2>Margin</h2>
+    <div class="div-container">
+        <p class="p-margin">
+            Lorem ipsum dolor sit
+            amet consectetur adipisicing
+            elit. Aspernatur nesciunt maiores
+            doloribus minus explicabo, eligendi
+            eaque sapiente accusamus repudiandae tempore
+            nemo suscipit sit natus vel ut. Blanditiis ex neque cupiditate?
+            <br />
+            <br />
+            Lorem ipsum dolor sit
+            amet consectetur adipisicing
+            elit. Aspernatur nesciunt maiores
+            doloribus minus explicabo, eligendi
+            eaque sapiente accusamus repudiandae tempore
+            nemo suscipit sit natus vel ut. Blanditiis ex neque cupiditate?
+        </p>
+    </div>
+</body>
+<script>
+    // box model untuk mengatur jarak antar elemen
+    /** Bagian utama pada css box:
+     * Padding: memberikan jarak dari elemen parent dengan turunannya
+     * Margin: memberikan jarak dari elemen turunan ke parentnya
+     */
+</script>
+
+</html>

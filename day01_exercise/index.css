@@ -1,0 +1,60 @@
+/* tanda bintang atau * == all selector */
+/* semua elemen di html punya padding dan margin masing2 */
+/* jadi all selector ini dipakai untuk mereset padding dan marginnya */
+* {
+    padding: 0 px;
+    margin : 0px;
+}
+
+#navbar {
+    display         : flex;
+    background-color: beige;
+}
+
+#nav-left {
+    flex            : 3;
+    background-color: gray;
+    padding         : 16px 0px;
+    /* untuk membuat padding biasanya kelipatan 4px=>4,8,12,16 */
+    /* padding ditaruh krn ingin ada jarak antara parent (div) sm child (isi div)*/
+    /* bisa pakai width juga tapi ga perlu pake flex jadinya */
+    /* width        : 75vw => berarti lebar 75 persen dr browser */
+}
+
+#nav-right {
+    flex            : 1;
+    background-color: cornsilk;
+    padding         : 16px 0px;
+    /* width        : 25vw => berarti lebar 25 persen dr browser */
+}
+
+#nav-left>ul,
+#nav-right>ul {
+    display        : flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    /* kalau jarak elemen tidak ingin pake padding maka bs pake margin disini */
+    /* margin      : 16px 0px; => berarti jarak dari ul ke div 16px secara vertikal */
+}
+
+/* pake id kalau styling ingin dipake secara khusus ke 1 elemen */
+/* pake class kalau styling dipake ke banyak elemen dan tidak terpaku ke satu jenis elemen (div,h,dll) */
+/* library framework ui berbasis class, ini akan jd contoh klo class dipake ke elemen bervariasi */
+
+#banner {
+    background-color: plum;
+    height          : 40vh;
+    /* supaya tulisan tepat di tengah bisa pake display, align-item, justify-content */
+    display         : flex;
+    align-items     : center;
+    justify-content : center;
+}
+
+#content {
+    display: flex;
+}
+
+.content-card {
+    flex   : 1;
+    padding: 16px;
+}

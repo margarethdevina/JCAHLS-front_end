@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive</title>
+    <!-- cara mengetahui layar sebuah browser yg mempengaruhi styling yg dimiliki -->
+    <!-- jadi kalau layar dikecilin atau digedein gmn -->
+    <!-- bootstrap => library yg udah ada untuk mengeset responsive -->
+    <!-- cara html mengetahui ukuran layar (desktop/mobile/tablet)? -->
+    <style>
+        /* siapkan acuannya dulu */
+        /* untuk liat ukuran dr browser */
+        /* handphone => berlayar kecil => misal ukuran = 0px hingga 400px */
+        /* jd setiap styling yg dimasukkin ke media di bawah ini hanya berlaku hingga max lebar browser 400px */
+        /* saat membuat responsive biasanya dimulai dr membuat versi mobile dulu */
+        /* otomatis content dan elemen lebih sedikit */
+        /* setelah mobile selesai baru kerjakan yg versi page lebih besar yg content dan elemen lebih banyak */      
+        
+        /* biasanya siapin styling  default */
+        /* misal default text di center */
+        .text-center{
+            text-align: center;
+        }
+
+        /* pas ukuran layar min 400px layar text di kiri */
+        @media only screen and (min-width:400px) {
+            .text-sm-left {
+                text-align: left;
+            }
+        }
+        
+        /* pas ukuran layar min 800px layar text di kanan */
+        @media only screen and (min-width:800px) {
+            .text-md-right {
+                text-align: right;
+            }
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <h1 class="text-center text-sm-left text-md-right">Text Center</h1>
+    <!-- default = text-center -->
+    <!-- text-sm = small -->
+    <!-- text-md = medium -->
+    <!-- text-l = large -->
+    <!-- saat ukuran lebih dr 400px maka akan kembali styling dasarnya dia ke text-align = left -->
+    <!-- kalau browser berukuran 400px maka hasilnya akan ke center -->
+
+</body>
+
+</html>
