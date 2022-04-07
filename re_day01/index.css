@@ -1,0 +1,79 @@
+/* reset all padding & margin */
+* {
+    padding: 0px;
+    margin : 0px;
+}
+
+#Navbar {
+    display         : flex;
+    background-color: beige;
+}
+
+#NavLeft {
+    flex            : 3;
+    background-color: #D3D3D3;
+}
+
+#NavRight {
+    flex            : 1;
+    background-color: #707070;
+}
+
+#NavLeft>ul,
+#NavRight>ul {
+    display        : flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    margin         : 8px 0px;
+}
+
+#Banner {
+    background-color: teal;
+    height          : 40vh;
+    display         : flex;
+    align-items     : center;
+    justify-content : center;
+}
+
+#Content {
+    display: flex;
+}
+
+.ContentCard {
+    flex   : 1;
+    padding: 20px;
+}
+
+#Content2 {
+    display: flex;
+    height : 80vh;
+}
+
+#LeftContent {
+    width           : 25%;
+    background-color: royalblue;
+}
+
+#RightContent {
+    width           : 75%;
+    background-color: blueviolet;
+}
+
+#Footer>ul {
+    display        : flex;
+    align-items    : center;
+    justify-content: space-evenly;
+    list-style-type: none;
+    margin: 8px 0px;
+}
+
+#FloatingBtn {
+    background-color: darkslategray;
+    width           : 50px;
+    height          : 50px;
+    position        : fixed;
+    bottom          : 30px;
+    right           : 30px;
+    border-radius   : 50px;
+    box-shadow: 2px 2px lightslategray;
+}
