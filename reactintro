@@ -37,7 +37,7 @@ src: bawaan konfigurasi dr react
 index.js berisi perintah yg mengarahkan komponen kita ke index.html
 react js memanfaatkan konfigurasi DOM (virtual DOM).
 Ada elemen id root di html yg dipanggil lewat document.getElementById('root').
-Virtual DOM yg menentukan komponen2 di index.jg dirender di index.html.
+Virtual DOM yg menentukan komponen2 di index.js dirender di index.html.
 
 app.js berperan memanage page2 kita yg lain.
 app.js = parent page
@@ -53,3 +53,5 @@ package-lock.json berisi package yg dah diupload apa aja dan ga perlu diapa2in.
 package.json info ttg project dan library apa aja yg akan kita gunakan.
 
 readme.md untuk buat catatan.
+
+untuk run project, masuk ke terminal projek, ketik npm start

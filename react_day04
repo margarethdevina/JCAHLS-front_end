@@ -1,0 +1,34 @@
+bootstrap based on class
+
+reactstrap library react yg dibuat berdasarkan bootstrap
+based on component
+paling mudah dipelajari
+
+reactbootstrap hampir sama dengan react strap
+based on component
+
+mui atau material ui
+based on component
+
+cara pake reactstrap:
+cara 1
+gunakan npm install --save bootstrap untuk instal bootstrap lalu import bootsrap nya
+saat tidak terhubung dengan internet masih bisa kerjain projek
+semua css didonlod dulu ditaruh di project folder nya.
+
+cara kedua
+masukkan tag elemen link dimasukan ke dalam head
+harus selalu online karena terhubung lewat link
+saat production pake cara kedua untuk kurangi beban download
+segi performance seo lebih disarankan
+
+ketik di terminal npm install bootstrap supaya terinstal di library project
+
+untuk cek berhasil apa ngga bisa lihat di package.json ada bootstrap
+
+saat udah berhasil import bootstrap link dr reactstrap installation page ke index.js dibawah import css nya
+
+
+
+
+
